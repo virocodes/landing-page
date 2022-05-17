@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 * {
     box-sizing: border-box;
@@ -6,7 +6,7 @@
 
 body {
     margin: 0;
-    font-family: "Roboto", sans-serif;
+    font-family: sans-serif;
 }
 
 .header {
@@ -31,7 +31,6 @@ h1 {
 a, .sub {
     text-decoration: none;
     font-size: 18px;
-    font-weight: 100;
     color: #e5e7eb;
 }
 
@@ -76,4 +75,104 @@ button {
 .holder {
     height: 300px;
     margin-left: 50px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 75px;
+    padding-top: 15px;
+}
+
+.img {
+    width: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 12px;
+}
+
+.images {
+    display: flex;
+    padding: 20px 200px;
+    gap: 75px;
+}
+
+.imgbox {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-bottom: 30px;
+}
+
+.imgtext {
+    text-align: center;
+    width: 150px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 120px 300px;
+}
+
+.qtext {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 100;
+    margin-bottom: 0px;
+}
+
+.thor {
+    text-align: right;
+    font-weight: 800;
+    font-size: 19px;
+    margin-right: 25px;
+}
+
+.ctafull {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.cta {
+    display: flex;
+    background-color: #3882f6;
+    padding: 25px 100px;
+    color: #f9faf8;
+    justify-content: center;
+    gap: 200px;
+    border-radius: 10px;
+}
+
+.ctatitle {
+    font-size: 19px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+.ctabutton {
+    border: 2px solid #f9faf8;
+    align-self: center;
+}
+
+.ctasub {
+    margin-top: 5px;
+}
+
+.bottom {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    padding: 20px;
 }
